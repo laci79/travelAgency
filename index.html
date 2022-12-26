@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Prompt:wght@500&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav id="top" class="nav">
+        <div class="nav-container">
+
+            <label id="transparent-button" for="menu">
+                <!--      <label class="hamburger-label" for="menu">-->
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <!--      </label>-->
+            </label>
+
+            <input class="hamburger-checkbox" type="checkbox" id="menu">
+
+        </div>
+        <ul class="nav-list" id="list">
+            <li class="nav-item"><a routerLink='/' class="nav-link">Főoldal</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Kapcsolat</a></li>
+            <li class="nav-item"><a href="/my-profile" class="nav-link">Desztinációk</a></li>
+            <li class="nav-item"><a href="/booking-list" class="nav-link">Foglalások</a></li>
+
+        </ul>
+
+    </nav>
+
+
+
+
+
+
+
+    <div id="main-wrapper">
+        <a href="/home" class="logo"><img alt="logo" id="logo" src="./img/transparent_logo.png"></a>
+
+        <div class="intro-img-wrapper" id="intro-img-wrapper">
+            <img src="./img/peru_02.jpg" class="intro-img" alt="">
+
+        </div>
+
+        <div class="clouds-wrapper" id="clouds-wrapper">
+            <!--  <img class="cloud" src="./assets/cloud1.png" style="&#45;&#45;i:1;" alt="">-->
+            <img class="cloud" src="./img/cloud2.png" style="--i:2;" alt="">
+            <img class="cloud" src="./img/cloud3.png" style="--i:3;" alt="">
+            <img class="cloud" src="./img/cloud4.png" style="--i:4;" alt="">
+            <img class="cloud" src="./img/cloud5.png" style="--i:5;" alt="">
+            <img class="cloud" src="./img/cloud1.png" style="--i:10;" alt="">
+            <!--  <img class="cloud" src="./assets/cloud2.png" style="&#45;&#45;i:9;" alt="">-->
+            <img class="cloud" src="./img/cloud3.png" style="--i:8;" alt="">
+            <img class="cloud" src="./img/cloud4.png" style="--i:7;" alt="">
+            <img class="cloud" src="./img/cloud5.png" style="--i:6;" alt="">
+        </div>
+
+        <section class="text" id="text">
+            <div class="title">Utazz velünk</div>
+            <!--  <div class="lets-start">Induljunk</div>-->
+
+            <div class="enter-button" onclick="scrollDown()">
+                <img src="./img/down-arrow-white.png" alt="" class="arrow-down" id="arrow-down">
+            </div>
+            <div class="gradient"></div>
+            <h1>Utazásaink</h1>
+
+            <div class="section-list-container" id="section-list-container">
+
+                <div class="section-list-container-card">
+                    <a href="./aus.html"><img src="img/aus_Sydney_Opera_House_main.jpg" alt=""></a>
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Ausztrália</h3>
+                        <p class="card-title">Látogatás a koalák földjén</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/india_01_main.JPG" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">India</h3>
+                        <p class="card-title">Utazás a maharadzsák országába</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/ita_01_main.jpg" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Olaszország</h3>
+                        <p class="card-title">Mediterrán körutazás</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/peru01_main.jpg" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Peru</h3>
+                        <p class="card-title">Misztikus utazás az inkák nyomában</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/norway_01_main.jpg" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Norvégia</h3>
+                        <p class="card-title">Fjordok és hegyek között</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/jpn_01_main.jpg" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Japán</h3>
+                        <p class="card-title">A felkelő nap országában</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/ch_01_main.jpg" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Svájc</h3>
+                        <p class="card-title">Alpesi körutazás</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/rus_01_main.jpg" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Oroszország</h3>
+                        <p class="card-title">Moszkva és Szentpétervár</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/nl_01_main.JPG" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Hollandia</h3>
+                        <p class="card-title">Kerékpártúra a tulipánok földjén</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/rio_01_main.jpg" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Brazília</h3>
+                        <p class="card-title">Rio és az Iguazú vízesés</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/greece_01_main.jpg" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Görögország</h3>
+                        <p class="card-title">Üdülés és kulturális körutazás</p>
+                    </section>
+                </div>
+                <div class="section-list-container-card">
+                    <img src="img/seychelles_03_main.jpg" alt="">
+                    <section class="section-card-textarea">
+                        <h3 class="card-title">Seychelle szigetek</h3>
+                        <p class="card-title">Pihenés a földi paradicsomban</p>
+                    </section>
+                </div>
+
+
+            </div>
+
+
+            <footer>
+                <a href="#main-wrapper"><img src="./img/down-arrow.png" alt="" class="arrow-up"></a>
+            </footer>
+        </section>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
