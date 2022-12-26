@@ -38,7 +38,7 @@ nav {
   }
 }
 
-a {
+.nav-link {
   text-decoration: none;
   font-family: 'Quicksand', sans-serif;
   font-size: 1.2em;
