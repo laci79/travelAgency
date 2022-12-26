@@ -368,6 +368,7 @@ button.nav-item {
     font-size: 3em;
     font-family: 'Permanent Marker', cursive;
     width: 80%;
+    text-shadow: -2px -2px 6px #000000;
   }
   
   @media only screen and (min-width: 750px) {
